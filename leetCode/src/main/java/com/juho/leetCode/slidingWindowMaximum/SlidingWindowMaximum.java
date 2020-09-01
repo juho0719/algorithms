@@ -29,6 +29,14 @@ public class SlidingWindowMaximum {
 
 		Deque<Integer> deque = new ArrayDeque<>();
 
+		for (int i = 0; i < nums.length; i++) {
+			if (i >= k && deque.peekFirst() == i - k) {
+				deque.pollFirst();
+			}
+
+			deque.offerLast(nums[i]);
+		}
+
 		return result;
 	}
 }
