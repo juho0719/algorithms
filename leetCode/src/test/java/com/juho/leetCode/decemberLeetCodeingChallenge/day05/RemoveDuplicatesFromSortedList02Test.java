@@ -1,4 +1,4 @@
-package com.juho.leetCode.decemberLeetCodingChallenge.day04;
+package com.juho.leetCode.decemberLeetCodingChallenge.day05;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
