@@ -1,10 +1,6 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day04;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.decemberLeetCodingChallenge.day03.BeautifulArrangement;
-import com.juho.leetCode.decemberLeetCodingChallenge.day04.MergeTwoSortedLists;
-
 import static org.assertj.core.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;

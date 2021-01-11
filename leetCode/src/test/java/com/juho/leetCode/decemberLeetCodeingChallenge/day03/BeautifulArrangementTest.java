@@ -1,9 +1,6 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day03;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.decemberLeetCodingChallenge.day03.BeautifulArrangement;
-
 import static org.assertj.core.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
