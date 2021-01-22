@@ -9,7 +9,7 @@ public class ValidParenthesesTest {
     ValidParentheses vp = new ValidParentheses();
 
     @Test
-    public void longestPalindromicSubstring01Test() {
+    public void validParentheses01Test() {
         String s01 = "()";
         assertEquals(vp.isValid(s01), true);
 
