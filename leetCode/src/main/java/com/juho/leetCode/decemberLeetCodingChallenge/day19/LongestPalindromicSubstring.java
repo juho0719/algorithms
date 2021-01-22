@@ -6,6 +6,9 @@ public class LongestPalindromicSubstring {
     int startIndex =0;
 
     public String longestPalindrome(String s) {
+        maxLen = 0;
+        startIndex = 0;
+        
         if(s.length()<=1){
             return s;
         }

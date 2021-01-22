@@ -1,5 +1,7 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day14;
 
+import java.util.Arrays;
+
 public class MinimumOperationsToReduceXtoZero {
     
     public int minOperations(int[] nums, int x) {

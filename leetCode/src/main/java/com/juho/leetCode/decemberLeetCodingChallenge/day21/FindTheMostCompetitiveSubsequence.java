@@ -1,5 +1,7 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day21;
 
+import java.util.Stack;
+
 public class FindTheMostCompetitiveSubsequence {
     
     public int[] mostCompetitive(int[] nums, int k) {

@@ -1,15 +1,24 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day18;
 
+import java.util.Arrays;
+
 public class MaxNumberOfKSumPairs {
     
-    public int countVowelStrings(int n) {
-        int[] dp = new int[n + 1];
-        dp[0] = 1;
-        for (int i = 0; i < 5; i++) {
-            for (int j = 1; j <= n; j++) {
-                dp[j] += dp[j - 1];
+    public int maxOperations(int[] nums, int k) {
+        Arrays.sort(nums);
+        int result = 0;
+        int left = 0, right = nums.length-1;
+        while(left < right) {
+            if(nums[right] >= k || nums[left] + nums[right] > k) {
+                right--;
+            } else if(nums[left] + nums[right] < k) {
+                left++;
+            } else {
+                result++;
+                left++;
+                right--;
             }
         }
-        return dp[n];
+        return result;
     }
 }

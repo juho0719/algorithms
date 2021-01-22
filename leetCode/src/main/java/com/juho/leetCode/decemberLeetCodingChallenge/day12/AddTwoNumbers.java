@@ -1,21 +1,8 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day12;
 
+import com.juho.leetCode.decemberLeetCodingChallenge.datastructure.ListNode;
+
 public class AddTwoNumbers {
-
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
     
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int upNum = 0;

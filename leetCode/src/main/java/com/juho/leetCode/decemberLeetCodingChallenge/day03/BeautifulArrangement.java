@@ -1,5 +1,7 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day03;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class BeautifulArrangement {
 
     public int countArrangement(int n) {

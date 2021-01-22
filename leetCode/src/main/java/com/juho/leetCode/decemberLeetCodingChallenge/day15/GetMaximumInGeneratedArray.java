@@ -1,5 +1,8 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day15;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class GetMaximumInGeneratedArray {
     
     public int getMaximumGenerated(int n) {

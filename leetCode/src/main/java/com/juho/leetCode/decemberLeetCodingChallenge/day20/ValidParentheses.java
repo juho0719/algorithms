@@ -1,5 +1,9 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day20;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
 public class ValidParentheses {
     
     public boolean isValid(String s) {

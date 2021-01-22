@@ -1,5 +1,7 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day13;
 
+import java.util.Arrays;
+
 public class BoatsToSavePeople {
     
     public int numRescueBoats(int[] people, int limit) {

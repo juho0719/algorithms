@@ -1,6 +1,5 @@
 package com.juho.leetCode.slidingWindowMaximum;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.assertj.core.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;

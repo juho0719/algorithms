@@ -1,13 +1,8 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day02;
 
-public class FindNodeOfBinaryTree {
+import com.juho.leetCode.decemberLeetCodingChallenge.datastructure.TreeNode;
 
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { this.val = x; }
-    }
+public class FindNodeOfBinaryTree {
 
     public TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
         if(original.val == target.val) return cloned;

@@ -1,5 +1,8 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day07;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class LongestSubstringWithoutRepeatingCharacters {
     
     public int lengthOfLongestSubstring(String s) {

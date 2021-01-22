@@ -1,8 +1,14 @@
 package com.juho.leetCode.decemberLeetCodingChallenge.day01;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class CheckArrayFormationThroughConcatenation {
 
-    private boolean canFormArrayV1(int[] arr, int[][] pieces) {
+    public boolean canFormArrayV1(int[] arr, int[][] pieces) {
         List<Integer> arrList = new ArrayList<>();
         Map<Integer, Integer> arrMap = new HashMap<>();
 
