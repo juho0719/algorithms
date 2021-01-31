@@ -12,7 +12,7 @@ public class VerticalOrderTraversalOfaBinaryTreeTest {
     VerticalOrderTraversalOfaBinaryTree votobt = new VerticalOrderTraversalOfaBinaryTree();
 
     @Test
-    public void smallestStringWithAGivenNumericValue01Test() {
+    public void verticalOrderTraversalOfaBinaryTreeTest01Test() {
         TreeNode2 root01 = new TreeNode2(3, new TreeNode2(9), new TreeNode2(20, new TreeNode2(15), new TreeNode2(7)));
         
         List<List<Integer>> vResult01 = new ArrayList<>();
