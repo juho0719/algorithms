@@ -1,10 +1,7 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day12;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.ListNode;
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day12.AddTwoNumbers;
-
 import org.junit.jupiter.api.Test;
 
 public class AddTwoNumbersTest {

@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day27;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day27.ConcatenationOfConsecutiveBinaryNumbers;
-
 import org.junit.jupiter.api.Test;
 
 public class ConcatenationOfConsecutiveBinaryNumbersTest {

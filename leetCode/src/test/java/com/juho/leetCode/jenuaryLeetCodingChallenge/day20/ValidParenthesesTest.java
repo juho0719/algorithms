@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day20;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day20.ValidParentheses;
-
 import org.junit.jupiter.api.Test;
 
 public class ValidParenthesesTest {

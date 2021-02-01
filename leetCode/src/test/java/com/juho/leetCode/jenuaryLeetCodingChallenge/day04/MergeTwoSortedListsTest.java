@@ -1,10 +1,7 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day04;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.ListNode;
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day04.MergeTwoSortedLists;
-
 import org.junit.jupiter.api.Test;
 
 public class MergeTwoSortedListsTest {

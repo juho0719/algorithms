@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day19;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day19.LongestPalindromicSubstring;
-
 import org.junit.jupiter.api.Test;
 
 public class LongestPalindromicSubstringTest {

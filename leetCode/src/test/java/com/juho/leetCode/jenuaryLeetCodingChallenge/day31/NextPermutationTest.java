@@ -1,11 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day31;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-
-import java.util.Arrays;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day31.NextPermutation;
-
 import org.junit.jupiter.api.Test;
 
 public class NextPermutationTest {

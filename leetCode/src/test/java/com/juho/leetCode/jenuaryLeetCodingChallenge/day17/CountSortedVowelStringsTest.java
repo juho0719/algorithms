@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day17;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day17.CountSortedVowelStrings;
-
 import org.junit.jupiter.api.Test;
 
 public class CountSortedVowelStringsTest {

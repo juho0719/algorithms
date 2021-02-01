@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day22;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day22.DetermineIfTwoStringsAreClose;
-
 import org.junit.jupiter.api.Test;
 
 public class DetermineIfTwoStringsAreCloseTest {

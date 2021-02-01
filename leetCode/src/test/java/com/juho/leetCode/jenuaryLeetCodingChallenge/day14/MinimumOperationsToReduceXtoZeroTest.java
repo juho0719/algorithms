@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day14;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day14.MinimumOperationsToReduceXtoZero;
-
 import org.junit.jupiter.api.Test;
 
 public class MinimumOperationsToReduceXtoZeroTest {

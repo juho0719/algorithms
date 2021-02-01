@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day30;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day30.MinimizeDeviationInArray;
-
 import org.junit.jupiter.api.Test;
 
 public class MinimizeDeviationInArrayTest {

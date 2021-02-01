@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day23;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day23.SortTheMatrixDiagonally;
-
 import org.junit.jupiter.api.Test;
 
 public class SortTheMatrixDiagonallyTest {

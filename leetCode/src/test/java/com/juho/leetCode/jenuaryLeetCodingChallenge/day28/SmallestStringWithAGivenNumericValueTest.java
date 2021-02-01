@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day28;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day28.SmallestStringWithAGivenNumericValue;
-
 import org.junit.jupiter.api.Test;
 
 public class SmallestStringWithAGivenNumericValueTest {

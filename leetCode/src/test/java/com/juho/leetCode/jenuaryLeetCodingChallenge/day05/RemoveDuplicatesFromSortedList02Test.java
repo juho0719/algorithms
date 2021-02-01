@@ -1,10 +1,7 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day05;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.ListNode;
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day05.RemoveDuplicatesFromSortedList02;
-
 import org.junit.jupiter.api.Test;
 
 public class RemoveDuplicatesFromSortedList02Test {

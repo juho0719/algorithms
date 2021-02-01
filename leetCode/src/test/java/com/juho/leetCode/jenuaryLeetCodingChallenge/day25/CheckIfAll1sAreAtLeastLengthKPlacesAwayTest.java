@@ -1,9 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day25;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.juho.leetCode.jenuaryLeetCodingChallenge.day25.CheckIfAll1sAreAtLeastLengthKPlacesAway;
-
 import org.junit.jupiter.api.Test;
 
 public class CheckIfAll1sAreAtLeastLengthKPlacesAwayTest {
