@@ -1,7 +1,7 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day02;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.TreeNode;
+import com.juho.leetCode.datastructure.TreeNode;
 
 import org.junit.jupiter.api.Test;
 

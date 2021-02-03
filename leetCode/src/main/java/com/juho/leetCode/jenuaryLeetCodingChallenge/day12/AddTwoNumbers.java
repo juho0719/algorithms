@@ -1,6 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day12;
 
-import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.ListNode;
+import com.juho.leetCode.datastructure.ListNode;
 
 public class AddTwoNumbers {
     

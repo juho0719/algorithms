@@ -1,4 +1,4 @@
-package com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure;
+package com.juho.leetCode.datastructure;
 
 import lombok.ToString;
 

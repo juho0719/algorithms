@@ -1,6 +1,6 @@
 package com.juho.leetCode.jenuaryLeetCodingChallenge.day02;
 
-import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.TreeNode;
+import com.juho.leetCode.datastructure.TreeNode;
 
 public class FindNodeOfBinaryTree {
 

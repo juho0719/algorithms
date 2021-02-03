@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.TreeMap;
 
-import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.TreeNode2;
+import com.juho.leetCode.datastructure.TreeNode2;
 
 public class VerticalOrderTraversalOfaBinaryTree {
 

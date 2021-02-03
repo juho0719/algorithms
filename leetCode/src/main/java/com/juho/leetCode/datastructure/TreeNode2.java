@@ -1,4 +1,4 @@
-package com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure;
+package com.juho.leetCode.datastructure;
 
 public class TreeNode2 {
     public int val;

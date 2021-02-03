@@ -3,7 +3,7 @@ package com.juho.leetCode.jenuaryLeetCodingChallenge.day05;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.ListNode;
+import com.juho.leetCode.datastructure.ListNode;
 
 public class RemoveDuplicatesFromSortedList02 {
     

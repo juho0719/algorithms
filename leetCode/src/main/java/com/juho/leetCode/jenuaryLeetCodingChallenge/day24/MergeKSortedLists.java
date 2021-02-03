@@ -2,7 +2,7 @@ package com.juho.leetCode.jenuaryLeetCodingChallenge.day24;
 
 import java.util.PriorityQueue;
 
-import com.juho.leetCode.jenuaryLeetCodingChallenge.datastructure.ListNode;
+import com.juho.leetCode.datastructure.ListNode;
 
 public class MergeKSortedLists {
 
