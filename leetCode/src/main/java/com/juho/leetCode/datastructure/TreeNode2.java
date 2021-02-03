@@ -1,5 +1,8 @@
 package com.juho.leetCode.datastructure;
 
+import lombok.ToString;
+
+@ToString
 public class TreeNode2 {
     public int val;
     public TreeNode2 left;
