@@ -8,7 +8,7 @@ public class SetMismatchTest {
     SetMismatch sm = new SetMismatch();
 
     @Test
-    public void distributeCandies01Test() {
+    public void setMismatch01Test() {
         int[] nums01 = {1,2,2,4};
         int[] result01 = {2,3};
         assertArrayEquals(sm.findErrorNums(nums01), result01);
