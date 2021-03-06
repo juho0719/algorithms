@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.TreeMap;
 
-import com.juho.leetCode.datastructure.TreeNode2;
+import com.juho.leetCode.datastructure.TreeNode;
 
 public class VerticalOrderTraversalOfaBinaryTree {
 
-    public List<List<Integer>> verticalTraversal(TreeNode2 root) {
+    public List<List<Integer>> verticalTraversal(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if(root == null) return null;
 
@@ -29,7 +29,7 @@ public class VerticalOrderTraversalOfaBinaryTree {
         return result;
     }
 
-    private void binaryTree(TreeNode2 root, int x, int y, TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map) {
+    private void binaryTree(TreeNode root, int x, int y, TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map) {
         if(root == null) return;
 
         TreeMap<Integer, PriorityQueue<Integer>> bMap = new TreeMap<>();

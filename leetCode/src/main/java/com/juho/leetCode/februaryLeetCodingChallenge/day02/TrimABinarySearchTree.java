@@ -1,9 +1,9 @@
 package com.juho.leetCode.februaryLeetCodingChallenge.day02;
 
-import com.juho.leetCode.datastructure.TreeNode2;
+import com.juho.leetCode.datastructure.TreeNode;
 
 public class TrimABinarySearchTree {
-    public TreeNode2 trimBST(TreeNode2 root, int low, int high) {
+    public TreeNode trimBST(TreeNode root, int low, int high) {
         if(root == null) {
             return null;
         } else {

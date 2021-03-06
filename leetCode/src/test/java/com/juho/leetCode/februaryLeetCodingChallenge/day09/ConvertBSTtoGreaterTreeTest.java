@@ -2,7 +2,7 @@ package com.juho.leetCode.februaryLeetCodingChallenge.day09;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.juho.leetCode.datastructure.TreeNode2;
+import com.juho.leetCode.datastructure.TreeNode;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,15 +12,15 @@ public class ConvertBSTtoGreaterTreeTest {
 
     @Test
     public void convertBSTtoGreaterTree01Test() {
-        TreeNode2 root01Node01 = new TreeNode2(4);
-        TreeNode2 root01Node02 = new TreeNode2(1);
-        TreeNode2 root01Node03 = new TreeNode2(6);
-        TreeNode2 root01Node04 = new TreeNode2(0);
-        TreeNode2 root01Node05 = new TreeNode2(2);
-        TreeNode2 root01Node06 = new TreeNode2(5);
-        TreeNode2 root01Node07 = new TreeNode2(7);
-        TreeNode2 root01Node08 = new TreeNode2(3);
-        TreeNode2 root01Node09 = new TreeNode2(8);
+        TreeNode root01Node01 = new TreeNode(4);
+        TreeNode root01Node02 = new TreeNode(1);
+        TreeNode root01Node03 = new TreeNode(6);
+        TreeNode root01Node04 = new TreeNode(0);
+        TreeNode root01Node05 = new TreeNode(2);
+        TreeNode root01Node06 = new TreeNode(5);
+        TreeNode root01Node07 = new TreeNode(7);
+        TreeNode root01Node08 = new TreeNode(3);
+        TreeNode root01Node09 = new TreeNode(8);
         root01Node01.left = root01Node02;
         root01Node01.right = root01Node03;
         root01Node02.left = root01Node04;
@@ -30,15 +30,15 @@ public class ConvertBSTtoGreaterTreeTest {
         root01Node05.right = root01Node08;
         root01Node07.right = root01Node09;
 
-        TreeNode2 result01Node01 = new TreeNode2(30);
-        TreeNode2 result01Node02 = new TreeNode2(36);
-        TreeNode2 result01Node03 = new TreeNode2(21);
-        TreeNode2 result01Node04 = new TreeNode2(36);
-        TreeNode2 result01Node05 = new TreeNode2(35);
-        TreeNode2 result01Node06 = new TreeNode2(26);
-        TreeNode2 result01Node07 = new TreeNode2(15);
-        TreeNode2 result01Node08 = new TreeNode2(33);
-        TreeNode2 result01Node09 = new TreeNode2(8);
+        TreeNode result01Node01 = new TreeNode(30);
+        TreeNode result01Node02 = new TreeNode(36);
+        TreeNode result01Node03 = new TreeNode(21);
+        TreeNode result01Node04 = new TreeNode(36);
+        TreeNode result01Node05 = new TreeNode(35);
+        TreeNode result01Node06 = new TreeNode(26);
+        TreeNode result01Node07 = new TreeNode(15);
+        TreeNode result01Node08 = new TreeNode(33);
+        TreeNode result01Node09 = new TreeNode(8);
         result01Node01.left = result01Node02;
         result01Node01.right = result01Node03;
         result01Node02.left = result01Node04;

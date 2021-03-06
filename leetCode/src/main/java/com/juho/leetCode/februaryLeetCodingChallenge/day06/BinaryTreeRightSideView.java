@@ -3,11 +3,11 @@ package com.juho.leetCode.februaryLeetCodingChallenge.day06;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.juho.leetCode.datastructure.TreeNode2;
+import com.juho.leetCode.datastructure.TreeNode;
 
 public class BinaryTreeRightSideView {
 
-    public List<Integer> rightSideView(TreeNode2 root) {
+    public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if(root == null) return result;
 
@@ -24,7 +24,7 @@ public class BinaryTreeRightSideView {
         return result;
     }
 
-    private void downTree(TreeNode2 node, List<Integer> result, int depth) {
+    private void downTree(TreeNode node, List<Integer> result, int depth) {
         if(result.size() < depth) {
             result.add(node.val);
         } 

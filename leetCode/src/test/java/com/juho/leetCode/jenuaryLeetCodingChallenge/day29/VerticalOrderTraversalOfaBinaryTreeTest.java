@@ -3,7 +3,7 @@ package com.juho.leetCode.jenuaryLeetCodingChallenge.day29;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
-import com.juho.leetCode.datastructure.TreeNode2;
+import com.juho.leetCode.datastructure.TreeNode;
 import org.junit.jupiter.api.Test;
 
 public class VerticalOrderTraversalOfaBinaryTreeTest {
@@ -12,7 +12,7 @@ public class VerticalOrderTraversalOfaBinaryTreeTest {
 
     @Test
     public void verticalOrderTraversalOfaBinaryTreeTest01Test() {
-        TreeNode2 root01 = new TreeNode2(3, new TreeNode2(9), new TreeNode2(20, new TreeNode2(15), new TreeNode2(7)));
+        TreeNode root01 = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
         
         List<List<Integer>> vResult01 = new ArrayList<>();
         List<Integer> vResult01Detail01 = new ArrayList<>();
