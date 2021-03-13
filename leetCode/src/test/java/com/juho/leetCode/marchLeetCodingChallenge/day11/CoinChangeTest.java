@@ -8,7 +8,7 @@ public class CoinChangeTest {
     CoinChange cc = new CoinChange();
 
     @Test
-    public void integerToRoman01Test() {
+    public void coinChange01Test() {
         int[] coins01 = {1,2,5};
         int amount01 = 11;
         assertEquals(cc.coinChange(coins01, amount01), 3);
