@@ -8,7 +8,7 @@ public class BeautifulArrangementIITest {
     BeautifulArrangementII ba2 = new BeautifulArrangementII();
 
     @Test
-    public void deepestLeavesSum01Test() {
+    public void beautifulArrangementII01Test() {
         int n01 = 3;
         int k01 = 1;
         int[] result01 = {1,2,3};
