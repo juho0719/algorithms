@@ -9,7 +9,7 @@ public class RemoveNthNodeFromEndOfListTest {
     RemoveNthNodeFromEndOfList rnnfel = new RemoveNthNodeFromEndOfList();
 
     @Test
-    public void numberOfSubmatricesThatSumToTarget01Test() {
+    public void removeNthNodeFromEndOfList01Test() {
         ListNode head101 = new ListNode(1);
         ListNode head102 = new ListNode(2);
         ListNode head103 = new ListNode(3);
