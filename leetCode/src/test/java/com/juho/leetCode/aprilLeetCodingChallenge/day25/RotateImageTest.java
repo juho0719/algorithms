@@ -24,4 +24,5 @@ public class RotateImageTest {
         ri.rotate(matrix03);
         assertArrayEquals(result03, matrix03);
     }
+
 }
