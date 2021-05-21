@@ -8,7 +8,7 @@ public class MinimumMovesToEqualArrayElementsIITest {
     MinimumMovesToEqualArrayElementsII mmeae = new MinimumMovesToEqualArrayElementsII();
     
     @Test
-    public void binaryTreeCameras01Test() {
+    public void minimumMovesToEqualArrayElementsII01Test() {
         int[] nums01 = {1,2,3};
         assertEquals(2, mmeae.minMoves2(nums01));
 

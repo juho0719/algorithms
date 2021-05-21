@@ -12,7 +12,7 @@ public class FindDuplicateFileinSystemTest {
     FindDuplicateFileinSystem fdfs = new FindDuplicateFileinSystem();
     
     @Test
-    public void binaryTreeCameras01Test() {
+    public void findDuplicateFileinSystem01Test() {
         String[] paths01 = {"root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)","root 4.txt(efgh)"};
         List<List<String>> result01 = new ArrayList<>();
         List<String> result01Chidren01 = new ArrayList<>();

@@ -8,7 +8,7 @@ public class LongestStringChainTest {
     LongestStringChain lsc = new LongestStringChain();
     
     @Test
-    public void binaryTreeCameras01Test() {
+    public void longestStringChain01Test() {
         String[] words01 = {"a","b","ba","bca","bda","bdca"};
         assertEquals(4, lsc.longestStrChain(words01));
 
