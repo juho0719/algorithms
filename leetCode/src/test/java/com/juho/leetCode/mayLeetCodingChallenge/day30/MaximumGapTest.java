@@ -10,9 +10,9 @@ public class MaximumGapTest {
     @Test
     public void maximumGap01Test() {
         int[] nums01 = {3,6,9,1};
-        assertEquals(3, mg.totalNQueens(nums01));
+        assertEquals(3, mg.maximumGap(nums01));
 
         int[] nums02 = {10};
-        assertEquals(0, mg.totalNQueens(nums02));
+        assertEquals(0, mg.maximumGap(nums02));
     }
 }
