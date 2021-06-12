@@ -5,8 +5,6 @@ import org.junit.jupiter.api.Test;
 
 public class MyCalendarITest {
 
-    MyCalendarI mc = new MyCalendarI();
-
     @Test
     public void myCalendarI01Test() {
         MyCalendarI mc = new MyCalendarI();
