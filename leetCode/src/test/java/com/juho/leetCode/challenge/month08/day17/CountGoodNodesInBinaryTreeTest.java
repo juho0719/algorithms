@@ -1,15 +1,13 @@
 package com.juho.leetCode.challenge.month08.day17;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.juho.leetCode.datastructure.TreeNode;
-
 import org.junit.jupiter.api.Test;
 
 public class CountGoodNodesInBinaryTreeTest {
 
     @Test
-    public void rangeSumQueryImmutable01Test() {
+    public void countGoodNodesInBinaryTree01Test() {
         CountGoodNodesInBinaryTree cgnbt01 = new CountGoodNodesInBinaryTree();
         TreeNode root101 = new TreeNode(3);
         TreeNode root102 = new TreeNode(1);
