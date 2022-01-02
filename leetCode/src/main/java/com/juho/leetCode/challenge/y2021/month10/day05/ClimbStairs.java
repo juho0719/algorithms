@@ -1,0 +1,15 @@
+package com.juho.leetCode.challenge.y2021.month10.day05;
+
+public class ClimbStairs {
+    public int climbStairs(int n) {
+        if (n == 1) return 1;
+        else if (n == 2) return 2;
+        int a[] = new int[n];
+        a[0] = 1;
+        a[1] = 2;
+        for (int i = 2; i < n; i++) {
+            a[i] = a[i-1] + a[i-2];
+        }
+        return a[n-1];
+    }
+}
