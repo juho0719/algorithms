@@ -9,6 +9,8 @@ public class FindTheDifferenceTest {
 
     @Test
     public void findTheDifference01Test() {
-        
+        String s01 = "abcd";
+        String t01 = "abcde";
+        assertEquals("e", fd.findTheDifference(s01, t01));
     }
 }
